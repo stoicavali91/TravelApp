@@ -43,7 +43,6 @@ const Features = () => {
                 title={feature.title} 
                 key={feature.title}
                 icon={feature.icon}
-                variant={feature.variant}
                 description={feature.description}
               />
             ))}
